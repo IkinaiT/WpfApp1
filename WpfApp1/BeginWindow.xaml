@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.BeginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Begin" Height="250" Width="195" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Input text" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="175" Height="30" FontSize="16"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Height="30" FontSize="20"/>
+        <RadioButton x:Name="RadioButton1" Content="Lower case" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" FontSize="16" Width="175" Height="30"/>
+        <RadioButton x:Name="RadioButton2" Content="Upper case" HorizontalAlignment="Center" Margin="0,115,0,0" VerticalAlignment="Top" Width="175" Height="30" FontSize="16"/>
+        <Button Content="Confirm" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" FontSize="20" Width="175" Height="50" Click="Button_Click"/>
+    </Grid>
+</Window>
